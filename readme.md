@@ -55,7 +55,7 @@ The dependency for this feature is:
 
 ## Step 4. Creating the API
 
-We are going to create two API entries, one to be accessed in an insecure way (* /api/public/ *) and another one in a secure way (* /api/secure/ *). The API will work somewhat like an `echo`,  sending back the received value along with the security level of the request.
+We are going to create two API entries, one to be accessed in an insecure way ( * /api/public/ * ) and another one in a secure way ( * /api/secure/ * ). The API will work somewhat like an `echo`,  sending back the received value along with the security level of the request.
 
 The methods implementing this API can be found in the class `controller.MainController.java`. 
 
